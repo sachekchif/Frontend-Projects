@@ -1,11 +1,13 @@
 const taskInput = document.getElementById('taskInput');
-const tasklist = document.getElementById('taskList');
+const taskList = document.getElementById('taskList');
 
-function addTist() {
+function addTask() {
 	const taskText = taskInput.value.trim();
 	
 	if (taskText !== "") {
-		const li = document.createElment("li");
+		const li = document.createElement("li");
+		const p = document.createElement("p");
+		p.textContent = "Links";
 		li.innerHTML = `
 			<span>${taskText}</span>
 			<button onclick="removeTask(this)">Remove</button>

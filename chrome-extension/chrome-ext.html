@@ -1,1 +1,21 @@
 <!DOCTYPE html>
+<html en="lang">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chrome-ext.css">
+</head>
+<body>
+    <div class="main-container">
+        <input type="text" name="links" id="links">
+        <button id="links-el" onclick='save()'>SAVE INPUT</button>
+        <button id="tab-el" >SAVE TAB</button>
+        <button id="delete-el">delete all</button>
+
+        <p>Links</p>
+        <ul id="linkUl"></ul>
+    </div>
+
+    <script src="chrome-ext.js"></script>
+</body>
+</html>
