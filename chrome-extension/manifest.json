@@ -4,7 +4,7 @@
     "name": "links tracker",
     "action": {
         "default_popup": "chrome-ext.html",
-        "default_icon": 3
+        "default_icon": "icon.png"
     },
     "permissions": [
         "tabs"
